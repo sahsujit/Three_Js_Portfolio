@@ -229,6 +229,39 @@ body {
 /* Repeat similar transformations for the rest of the styles */
 
 
+
+.grid-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #1c1c1c;
+  background-color: #121212;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .grid-container {
+    padding: 1.75rem;
+  }
+}
+
+.grid-headtext {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-family: 'General Sans', sans-serif;
+}
+
+.grid-subtext {
+  color: #afb0b6;
+  font-size: 1rem;
+  font-family: 'General Sans', sans-serif;
+} 
+
 .arrow-gradient {
   background-image: linear-gradient(
     to right,
