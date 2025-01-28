@@ -55,6 +55,16 @@ body {
   background-color: #48bb78;
 }
 
+.head-text {
+  font-size: 1.875rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #BEC1CF 60%, #D5D8EA 100%);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
 /* 
 
 
@@ -227,6 +237,28 @@ body {
 } */
 
 /* Repeat similar transformations for the rest of the styles */
+
+
+.work-content_container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 1.25rem; /* equivalent to Tailwind's gap-5 */
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: transparent; 
+  border-radius: 0.5rem; /* equivalent to Tailwind's rounded-lg */
+  padding: 0.625rem; /* equivalent to Tailwind's px-2.5 */
+
+  /* Responsive styling for larger screens */
+  @media (min-width: 640px) { /* Tailwind's sm breakpoint */
+    padding: 1.25rem; /* equivalent to Tailwind's sm:px-5 */
+  }
+}
+
+.work-content_container:hover {
+  background-color: #1C1C21; /* Tailwind's black-300 equivalent */
+}
 
 
 
