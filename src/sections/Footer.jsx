@@ -7,22 +7,22 @@ const Footer = () => {
           <p>Privacy Policy</p>
         </div>
   
-        <div className="flex gap-3">
-          <div className="w-12 h-12 rounded-full flex justify-center items-center bg-[#1C1C21] border border-[#0E0E10]">
+        <div className="flex  gap-3">
+          <div className="w-12 h-12 rounded-full  flex justify-center items-center bg-[#1C1C21] border border-[#0E0E10]">
             <a href="https://github.com/sahsujit">
-            <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+            <img src="/assets/github.svg" alt="github" className="w-1/2 mx-auto h-1/2" />
 
             </a>
            
           </div>
           <div className="w-12 h-12 rounded-full flex justify-center items-center bg-[#1C1C21] border border-[#0E0E10]">
            <a href="https://x.com/sujitsah1388">
-           <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
+           <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 mx-auto h-1/2" />
            </a>
           </div>
           <div className="w-12 h-12 rounded-full flex justify-center items-center bg-[#1C1C21] border border-[#0E0E10]">
             <a href="https://www.instagram.com/sujit_sah_18/">
-            <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+            <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 mx-auto h-1/2" />
             </a>
           </div>
         </div>
